@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Art therapy</title>
+	<link rel="stylesheet" href="art-style.css">
+</head>
+<body>
+	<section>
+		<div class="circle"></div>
+		<header>
+			<a href="#">
+				<img src="img/logo.png" alt="Logo" class="logo">
+			</a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Schedule</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</header>
+		<div class="content">
+			<div class="textBox">
+				<h2>It's not just Art<br>It's <span>Therapy</span></h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim maxime impedit atque id quia error numquam minima cupiditate rem magni quasi eos soluta doloremque quo magnam molestias, rerum at.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div class="imgBox">
+				<img src="img/1.1.png" alt="Glass" class="subject">
+			</div>
+		</div>
+		<ul class="thumb">
+			<li><img src="img/1.png" alt="Thumb" onclick="imgSlider('img/1.1.png');changeCircleColor('#b0aad7');"></li>
+			<li><img src="img/2.png" alt="Thumb" onclick="imgSlider('img/2.2.png');changeCircleColor('linear-gradient(186deg, rgba(34,193,195,1) 0%, rgba(158,106,212,0.6601015406162465) 70%)');"></li>
+			<li><img src="img/3.png" alt="Thumb" onclick="imgSlider('img/3.3.png');changeCircleColor('radial-gradient(circle, rgba(238,174,202,0.6741071428571428) 0%, rgba(176,170,215,1) 100%)');"></li>
+		</ul>
+		<ul class="sci">
+			<li><a href="#"><img src="img/facebook.png" alt="soc_btn"></a></li>
+			<li><a href="#"><img src="img/twitter.png" alt="soc_btn"></a></li>
+			<li><a href="#"><img src="img/instagram.png" alt="soc_btn"></a></li>
+		</ul>
+	</section>
+	<script src="art-script.js"></script>
+</body>
+</html>
